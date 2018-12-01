@@ -1,0 +1,14 @@
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Dependency.Injection\bin\Debug\netcoreapp2.1\Gympass_Kart.Dependency.Injection.deps.json
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Dependency.Injection\bin\Debug\netcoreapp2.1\Gympass_Kart.Dependency.Injection.dll
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Dependency.Injection\bin\Debug\netcoreapp2.1\Gympass_Kart.Dependency.Injection.pdb
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Dependency.Injection\bin\Debug\netcoreapp2.1\Gympass_Kart.Application.dll
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Dependency.Injection\bin\Debug\netcoreapp2.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Dependency.Injection\bin\Debug\netcoreapp2.1\Gympass_Kart.Application.pdb
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Dependency.Injection\bin\Debug\netcoreapp2.1\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Dependency.Injection\obj\Debug\netcoreapp2.1\Gympass_Kart.Dependency.Injection.csprojAssemblyReference.cache
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Dependency.Injection\obj\Debug\netcoreapp2.1\Gympass_Kart.Dependency.Injection.csproj.CoreCompileInputs.cache
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Dependency.Injection\obj\Debug\netcoreapp2.1\Gympass_Kart.Dependency.Injection.AssemblyInfoInputs.cache
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Dependency.Injection\obj\Debug\netcoreapp2.1\Gympass_Kart.Dependency.Injection.AssemblyInfo.cs
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Dependency.Injection\obj\Debug\netcoreapp2.1\Gympass_Kart.Dependency.Injection.csproj.CopyComplete
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Dependency.Injection\obj\Debug\netcoreapp2.1\Gympass_Kart.Dependency.Injection.dll
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Dependency.Injection\obj\Debug\netcoreapp2.1\Gympass_Kart.Dependency.Injection.pdb

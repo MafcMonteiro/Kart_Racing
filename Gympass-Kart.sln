@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gympass_Kart", "Gympass_Kart\Gympass_Kart.csproj", "{329E86A2-111B-4DA5-8CFB-62CAEFD8B120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gympass_Kart.Application", "Gympass_Kart.Application\Gympass_Kart.Application.csproj", "{046E6E6F-AC17-40E4-AA0F-E679B4355A52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{3076542E-750E-4B14-80F3-11110454BFD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{BD531A0C-2F54-430E-8457-3171A943BDC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Dependency njection", "3 - Dependency njection", "{7A6BE388-D5CE-4091-8760-283151083CB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gympass_Kart.Dependency.Injection", "Gympass_Kart.Dependency.Injection\Gympass_Kart.Dependency.Injection.csproj", "{0249610D-9066-4608-B6BD-513C1126903F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{329E86A2-111B-4DA5-8CFB-62CAEFD8B120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329E86A2-111B-4DA5-8CFB-62CAEFD8B120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329E86A2-111B-4DA5-8CFB-62CAEFD8B120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329E86A2-111B-4DA5-8CFB-62CAEFD8B120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{046E6E6F-AC17-40E4-AA0F-E679B4355A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046E6E6F-AC17-40E4-AA0F-E679B4355A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{046E6E6F-AC17-40E4-AA0F-E679B4355A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{046E6E6F-AC17-40E4-AA0F-E679B4355A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0249610D-9066-4608-B6BD-513C1126903F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0249610D-9066-4608-B6BD-513C1126903F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0249610D-9066-4608-B6BD-513C1126903F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0249610D-9066-4608-B6BD-513C1126903F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{329E86A2-111B-4DA5-8CFB-62CAEFD8B120} = {3076542E-750E-4B14-80F3-11110454BFD2}
+		{046E6E6F-AC17-40E4-AA0F-E679B4355A52} = {BD531A0C-2F54-430E-8457-3171A943BDC4}
+		{0249610D-9066-4608-B6BD-513C1126903F} = {7A6BE388-D5CE-4091-8760-283151083CB5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57EA4607-6BE2-419E-ABB0-BF6B44B4756C}
+	EndGlobalSection
+EndGlobal

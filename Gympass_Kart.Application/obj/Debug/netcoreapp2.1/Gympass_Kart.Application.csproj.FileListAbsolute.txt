@@ -1,0 +1,9 @@
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Application\bin\Debug\netcoreapp2.1\Gympass_Kart.Application.deps.json
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Application\bin\Debug\netcoreapp2.1\Gympass_Kart.Application.dll
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Application\bin\Debug\netcoreapp2.1\Gympass_Kart.Application.pdb
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Application\obj\Debug\netcoreapp2.1\Gympass_Kart.Application.csprojAssemblyReference.cache
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Application\obj\Debug\netcoreapp2.1\Gympass_Kart.Application.csproj.CoreCompileInputs.cache
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Application\obj\Debug\netcoreapp2.1\Gympass_Kart.Application.AssemblyInfoInputs.cache
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Application\obj\Debug\netcoreapp2.1\Gympass_Kart.Application.AssemblyInfo.cs
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Application\obj\Debug\netcoreapp2.1\Gympass_Kart.Application.dll
+F:\Projetos\GymPass\Gympass-Kart\Gympass_Kart.Application\obj\Debug\netcoreapp2.1\Gympass_Kart.Application.pdb
