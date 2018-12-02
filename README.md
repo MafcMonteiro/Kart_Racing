@@ -1,5 +1,5 @@
 # Kart_Racing
-Analise dos resultados de uma corrida de Kart
+## Analise dos resultados da corrida de Kart Abaixo
 
 ```text
 Hora                               Piloto             Nº Volta   Tempo Volta       Velocidade média da volta
@@ -27,4 +27,60 @@ Hora                               Piloto             Nº Volta   Tempo Volta   
 23:53:39.660      011 – S.VETTEL                          2		1:37.864			28,435
 23:54:57.757      011 – S.VETTEL                          3		1:18.097			35,633
 
+```
+
+### Plataforma desenvolda em Asp.Net Core, podendo ser executa direto no iis express do visual studio.
+
+Segue Endpoints e seus resultados esperado, Postman para consulta em anexo.
+
+### Get()
+// Busca o resultado informando uma lista com os pilotos e suas posições.
+```json
+{
+    "success": true,
+    "data": [
+        {
+            "posicao": 1,
+            "codigoPiloto": 38,
+            "nomePiloto": "F.MASSA",
+            "qtdVoltas": 4,
+            "tempoProva": "00:03:08.7260000"
+        },
+        {
+            "posicao": 2,
+            "codigoPiloto": 2,
+            "nomePiloto": "K.RAIKKONEN",
+            "qtdVoltas": 4,
+            "tempoProva": "00:03:11.0450000"
+        },
+        {
+            "posicao": 3,
+            "codigoPiloto": 33,
+            "nomePiloto": "R.BARRICHELLO",
+            "qtdVoltas": 4,
+            "tempoProva": "00:03:11.7280000"
+        },
+        {
+            "posicao": 4,
+            "codigoPiloto": 23,
+            "nomePiloto": "M.WEBBER",
+            "qtdVoltas": 4,
+            "tempoProva": "00:03:13.3080000"
+        },
+        {
+            "posicao": 5,
+            "codigoPiloto": 15,
+            "nomePiloto": "F.ALONSO",
+            "qtdVoltas": 4,
+            "tempoProva": "00:03:35.7650000"
+        },
+        {
+            "posicao": 6,
+            "codigoPiloto": 11,
+            "nomePiloto": "S.VETTEL",
+            "qtdVoltas": 3,
+            "tempoProva": "00:02:55.9610000"
+        }
+    ]
+}
 ```
