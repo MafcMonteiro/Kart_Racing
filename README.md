@@ -85,7 +85,7 @@ Segue Endpoints e seus resultados esperado, Postman para consulta em anexo.
 }
 ```
 
-## Get/FindBestLap
+## Get/FindBestLapAllPilots
 // Busca a melhor volta feita por cada piloto.
 
 ```json
@@ -123,5 +123,18 @@ Segue Endpoints e seus resultados esperado, Postman para consulta em anexo.
             "melhorVolta": "00:01:18.0970000"
         }
     ]
+}
+```
+## Get/FindBestLap
+// Busca a melhor volta feita na corrida
+
+```json
+{
+    "success": true,
+    "data": {
+        "codigoPiloto": 38,
+        "nomePiloto": "F.MASSA",
+        "melhorVolta": "00:01:02.7690000"
+    }
 }
 ```
