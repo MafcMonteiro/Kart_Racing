@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "0ac99ba0-0b04-4e45-983b-dafaa0899381",
+		"name": "Gympass",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:50493/api/kart",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50493",
+					"path": [
+						"api",
+						"kart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FindBestLapAllPilots",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:50493/api/kart/FindBestLapAllPilots",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50493",
+					"path": [
+						"api",
+						"kart",
+						"FindBestLapAllPilots"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FindBestLap",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:50493/api/kart/FindBestLap",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50493",
+					"path": [
+						"api",
+						"kart",
+						"FindBestLap"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AverageSpeed",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:50493/api/kart/AverageSpeed",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50493",
+					"path": [
+						"api",
+						"kart",
+						"AverageSpeed"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IntervalFirstPostiion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:50493/api/kart/IntervalFirstPostiion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50493",
+					"path": [
+						"api",
+						"kart",
+						"IntervalFirstPostiion"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
