@@ -8,5 +8,6 @@ namespace Gympass_Kart.Application.Interfaces
     public interface IUtilsApplicationService
     {
         List<KartModel> ResumeDataBase();
+        TimeSpan CalculaTempoProva(List<KartModel> kartModels, string Piloto);
     }
 }

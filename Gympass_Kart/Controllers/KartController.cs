@@ -47,6 +47,12 @@ namespace Gympass_Kart.Controllers
         {
             return CreateResponse(() => kartApplicationService.AverageSpeed());
         }
+
+        [HttpGet("IntervalFirstPostiion")]
+        public IActionResult IntervalFirstPostiion()
+        {
+            return CreateResponse(() => kartApplicationService.InvertvalPosition());
+        }
     }
 }
 

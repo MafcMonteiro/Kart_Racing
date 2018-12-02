@@ -118,6 +118,59 @@ namespace Gympass_Kart.Application.Services
             return Speed;
         }
 
+        public List<InvertvalPosition> InvertvalPosition()
+        {
+            //Busca os dados na base 
+            var list = utilsApplicationService.ResumeDataBase();
+
+            var Invertval = new List<InvertvalPosition>();
+
+            //Busca a Ordem do podium
+            var query = list.GroupBy(x => x.Piloto).Select(g => new
+            {
+                Piloto = g.Key,
+                NumVolta = g.Max(x => x.NumVolta),
+                Hora = g.Max(x => x.Hora)
+            }).ToList();
+
+            var orderyQuery = query.OrderBy(x => x.Hora).ToList();
+
+            var position = 1;
+
+            foreach (var item in orderyQuery)
+            {
+                //Filtra por piloto para chegar no cálculo entre a primeira volta e a ultima volta
+                var tempoProva = utilsApplicationService.CalculaTempoProva(list,item.Piloto);
+
+                TimeSpan interval = new TimeSpan(0);
+
+                if (position > 1)
+                {
+                    var t = utilsApplicationService.CalculaTempoProva(list, orderyQuery[0].Piloto);
+
+                    interval = t - tempoProva;
+                }
+
+                // Trata a questão do problema caso o piloto não tenha completado a prova.
+                if (orderyQuery[0].NumVolta == item.NumVolta)
+                {
+                    Invertval.Add(new InvertvalPosition
+                    {
+                        Posicao = position,
+                        CodigoPiloto = Convert.ToInt32(item.Piloto.Substring(0, 3)),
+                        NomePiloto = item.Piloto.Substring(5).Trim(),
+                        QtdVoltas = item.NumVolta,
+                        TempoProva = tempoProva,
+                        Interval = interval
+                    });
+                    position++;
+                }      
+            }
+
+            return Invertval;
+        }
+
+
 
 
     }

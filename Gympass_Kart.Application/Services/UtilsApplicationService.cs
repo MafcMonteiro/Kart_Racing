@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 using System.Text;
 
 namespace Gympass_Kart.Application.Services
@@ -64,6 +65,13 @@ namespace Gympass_Kart.Application.Services
             }
 
             return list;
+        }
+
+
+        public TimeSpan CalculaTempoProva(List<KartModel> kartModels, string Piloto)
+        {
+            var calc = kartModels.FindAll(x => x.Piloto == Piloto).ToList();            
+            return  calc.LastOrDefault().Hora - calc.FirstOrDefault().Hora;
         }
     }
 }

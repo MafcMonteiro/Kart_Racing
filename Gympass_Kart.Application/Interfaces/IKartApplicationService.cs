@@ -11,5 +11,6 @@ namespace Gympass_Kart.Application.Interfaces
         List<Bestlap> FindBestLapAllPilots();
         Bestlap FindBestLap();
         List<AverageSpeed> AverageSpeed();
+        List<InvertvalPosition> InvertvalPosition();
     }
 }
