@@ -10,5 +10,6 @@ namespace Gympass_Kart.Application.Interfaces
         List<Podium> GetkartResult();
         List<Bestlap> FindBestLapAllPilots();
         Bestlap FindBestLap();
+        List<AverageSpeed> AverageSpeed();
     }
 }

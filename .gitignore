@@ -3,7 +3,7 @@
 ################################################################################
 
 /.vs/Gympass-Kart/v15
-
+/.bin/Debug/netcoreapp2.1
 
 # User-specific files
 *.suo

@@ -41,6 +41,12 @@ namespace Gympass_Kart.Controllers
         {
             return CreateResponse(() => kartApplicationService.FindBestLap());
         }
+
+        [HttpGet("AverageSpeed")]
+        public IActionResult AverageSpeed()
+        {
+            return CreateResponse(() => kartApplicationService.AverageSpeed());
+        }
     }
 }
 

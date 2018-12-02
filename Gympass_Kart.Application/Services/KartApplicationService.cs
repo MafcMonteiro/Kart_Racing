@@ -95,5 +95,30 @@ namespace Gympass_Kart.Application.Services
             return bestLap;
         }
 
+        public List<AverageSpeed> AverageSpeed()
+        {
+
+            var Speed = new List<AverageSpeed>();
+
+            var list = utilsApplicationService.ResumeDataBase();
+
+            var query = list.GroupBy(x => x.Piloto).ToList();
+
+            foreach (var item in query)
+            {
+                Speed.Add(new AverageSpeed
+                {
+                    CodigoPiloto = Convert.ToInt32(item.Key.Substring(0, 3)),
+                    NomePiloto = item.Key.Substring(5).Trim(),
+                    VelMedia = String.Format("{0:#,0.000}",list.Where(x => x.Piloto == item.Key).Sum(x => x.VelMediaVolta) / list.Where(x => x.Piloto == item.Key).Max(x => x.NumVolta))
+
+                });
+            }
+
+            return Speed;
+        }
+
+
+
     }
 }

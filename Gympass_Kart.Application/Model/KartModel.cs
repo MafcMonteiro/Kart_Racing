@@ -29,4 +29,11 @@ namespace Gympass_Kart.Application.Model
         public string NomePiloto { get; set; }
         public TimeSpan MelhorVolta { get; set; }
     }
+
+    public class AverageSpeed
+    {
+        public int CodigoPiloto { get; set; }
+        public string NomePiloto { get; set; }
+        public string VelMedia { get; set; }
+    }
 }
