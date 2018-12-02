@@ -138,10 +138,10 @@ Segue Endpoints e seus resultados esperado, Postman para consulta em anexo.
     }
 }
 ```
-```json
+
 ## Get/AverageSpeed
 // Calcula e retorna a velocidade média de todos os pilotos durante a corrida.
-
+```json
 {
     "success": true,
     "data": [
