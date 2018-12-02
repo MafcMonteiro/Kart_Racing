@@ -138,3 +138,43 @@ Segue Endpoints e seus resultados esperado, Postman para consulta em anexo.
     }
 }
 ```
+
+## Get/AverageSpeed
+// Calcula e retorna a velocidade média de todos os pilotos durante a corrida.
+```json
+{
+    "success": true,
+    "data": [
+        {
+            "codigoPiloto": 38,
+            "nomePiloto": "F.MASSA",
+            "velMedia": "44,246"
+        },
+        {
+            "codigoPiloto": 33,
+            "nomePiloto": "R.BARRICHELLO",
+            "velMedia": "43,468"
+        },
+        {
+            "codigoPiloto": 2,
+            "nomePiloto": "K.RAIKKONEN",
+            "velMedia": "43,627"
+        },
+        {
+            "codigoPiloto": 23,
+            "nomePiloto": "M.WEBBER",
+            "velMedia": "43,191"
+        },
+        {
+            "codigoPiloto": 15,
+            "nomePiloto": "F.ALONSO",
+            "velMedia": "38,066"
+        },
+        {
+            "codigoPiloto": 11,
+            "nomePiloto": "S.VETTEL",
+            "velMedia": "25,746"
+        }
+    ]
+}
+```
