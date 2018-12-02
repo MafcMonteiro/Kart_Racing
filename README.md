@@ -84,3 +84,42 @@ Segue Endpoints e seus resultados esperado, Postman para consulta em anexo.
     ]
 }
 ```
+
+## Get/FindBestLap
+```json
+{
+    "success": true,
+    "data": [
+        {
+            "codigoPiloto": 38,
+            "nomePiloto": "F.MASSA",
+            "melhorVolta": "00:01:02.7690000"
+        },
+        {
+            "codigoPiloto": 33,
+            "nomePiloto": "R.BARRICHELLO",
+            "melhorVolta": "00:01:03.7160000"
+        },
+        {
+            "codigoPiloto": 2,
+            "nomePiloto": "K.RAIKKONEN",
+            "melhorVolta": "00:01:03.0760000"
+        },
+        {
+            "codigoPiloto": 23,
+            "nomePiloto": "M.WEBBER",
+            "melhorVolta": "00:01:04.2160000"
+        },
+        {
+            "codigoPiloto": 15,
+            "nomePiloto": "F.ALONSO",
+            "melhorVolta": "00:01:07.0110000"
+        },
+        {
+            "codigoPiloto": 11,
+            "nomePiloto": "S.VETTEL",
+            "melhorVolta": "00:01:18.0970000"
+        }
+    ]
+}
+```
