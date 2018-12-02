@@ -29,12 +29,12 @@ Hora                               Piloto             Nº Volta   Tempo Volta   
 
 ```
 
-### Plataforma desenvolda em Asp.Net Core, podendo ser executa direto no iis express do visual studio.
+### Plataforma desenvolvida em Asp.Net Core, podendo ser executada direto no iis express do visual studio.
 
-Segue Endpoints e seus resultados esperado, Postman para consulta em anexo.
+Segue Endpoints e seus resultados esperado, Postman para consulta no projeto: Gympass.postman_collection.json
 
 ### Get()
-// Busca o resultado informando uma lista com os pilotos e suas posições.
+// Busca o resultado, informando uma lista com os pilotos e suas posições.
 ```json
 {
     "success": true,
