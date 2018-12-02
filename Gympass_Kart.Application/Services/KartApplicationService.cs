@@ -40,9 +40,8 @@ namespace Gympass_Kart.Application.Services
 
             foreach (var item in orderyQuery)
             {
-                //Filtra por piloto para chegar no cálculo entre a primeira volta e a ultima volta
-                var calc = list.Where(x => x.Piloto == item.Piloto).ToList();
-                var tempoProva = calc.LastOrDefault().Hora - calc.FirstOrDefault().Hora;
+                //Filtra por piloto para chegar no cálculo entre a primeira volta e a ultima volta                
+                var tempoProva = utilsApplicationService.CalculaTempoProva(list, item.Piloto);
 
                 podium.Add(new Podium
                 {
