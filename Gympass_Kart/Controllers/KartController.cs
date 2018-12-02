@@ -30,6 +30,12 @@ namespace Gympass_Kart.Controllers
         }
 
 
+        [HttpGet("FindBestLapAllPilots")]
+        public IActionResult FindBestLapAllPilots()
+        {
+            return CreateResponse(() => kartApplicationService.FindBestLapAllPilots());
+        }
+
         [HttpGet("FindBestLap")]
         public IActionResult FindBestLap()
         {

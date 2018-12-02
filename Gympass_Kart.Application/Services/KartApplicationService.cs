@@ -58,10 +58,10 @@ namespace Gympass_Kart.Application.Services
             return podium.ToList();
         }
 
-        public List<Bestlap> FindBestLap()
+        public List<Bestlap> FindBestLapAllPilots()
         {
-
             var bestLap = new List<Bestlap>();
+
             //Busca lista da corrida
             var list = utilsApplicationService.ResumeDataBase();
 
@@ -78,7 +78,21 @@ namespace Gympass_Kart.Application.Services
             }
 
             return bestLap;
+        }
 
+        public Bestlap FindBestLap()
+        {
+            var bestLap = new Bestlap();
+            //Busca lista da corrida
+            var list = utilsApplicationService.ResumeDataBase();
+
+            var query = list.OrderBy(x => x.TempoVolta).FirstOrDefault();
+
+            bestLap.CodigoPiloto = Convert.ToInt32(query.Piloto.Substring(0, 3));
+            bestLap.NomePiloto = query.Piloto.Substring(5).Trim();
+            bestLap.MelhorVolta = query.TempoVolta;
+
+            return bestLap;
         }
 
     }

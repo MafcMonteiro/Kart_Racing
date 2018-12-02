@@ -8,7 +8,7 @@ namespace Gympass_Kart.Application.Interfaces
     public interface IKartApplicationService
     {
         List<Podium> GetkartResult();
-        List<Bestlap> FindBestLap();
-
+        List<Bestlap> FindBestLapAllPilots();
+        Bestlap FindBestLap();
     }
 }
