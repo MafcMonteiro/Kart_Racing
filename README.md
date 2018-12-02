@@ -178,3 +178,54 @@ Segue Endpoints e seus resultados esperado, Postman para consulta em anexo.
     ]
 }
 ```
+## Get/IntervalFirstPostiion
+// Busca a o podium e o intervalo de tempo que cada piloto completou a corrida após o primeiro colocado.
+// OBS: S.VETTEL não retornara na lista devido não te completado a corrida.
+
+```json
+{
+    "success": true,
+    "data": [
+        {
+            "posicao": 1,
+            "codigoPiloto": 38,
+            "nomePiloto": "F.MASSA",
+            "qtdVoltas": 4,
+            "tempoProva": "00:03:08.7260000",
+            "interval": "00:00:00"
+        },
+        {
+            "posicao": 2,
+            "codigoPiloto": 2,
+            "nomePiloto": "K.RAIKKONEN",
+            "qtdVoltas": 4,
+            "tempoProva": "00:03:11.0450000",
+            "interval": "-00:00:02.3190000"
+        },
+        {
+            "posicao": 3,
+            "codigoPiloto": 33,
+            "nomePiloto": "R.BARRICHELLO",
+            "qtdVoltas": 4,
+            "tempoProva": "00:03:11.7280000",
+            "interval": "-00:00:03.0020000"
+        },
+        {
+            "posicao": 4,
+            "codigoPiloto": 23,
+            "nomePiloto": "M.WEBBER",
+            "qtdVoltas": 4,
+            "tempoProva": "00:03:13.3080000",
+            "interval": "-00:00:04.5820000"
+        },
+        {
+            "posicao": 5,
+            "codigoPiloto": 15,
+            "nomePiloto": "F.ALONSO",
+            "qtdVoltas": 4,
+            "tempoProva": "00:03:35.7650000",
+            "interval": "-00:00:27.0390000"
+        }
+    ]
+}
+```
