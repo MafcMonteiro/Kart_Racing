@@ -86,6 +86,8 @@ Segue Endpoints e seus resultados esperado, Postman para consulta em anexo.
 ```
 
 ## Get/FindBestLap
+// Busca a melhor volta feita por cada piloto.
+
 ```json
 {
     "success": true,
