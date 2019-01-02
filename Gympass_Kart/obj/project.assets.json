@@ -4877,7 +4877,7 @@
       ]
     },
     "Microsoft.AspNetCore.Http.Features/2.1.1": {
-      "sha512": "cMnTXRH+8T7GLht6cXRCMmN1HaYfXti2WEUdXqMUuyJgi4oH9cmzW4nECSBkQjsCs5O06BphyDDDAsTW/zQmpg==",
+      "sha512": "VklZ7hWgSvHBcDtwYYkdMdI/adlf7ebxTZ9kdzAhX+gUs5jSHE9mZlTamdgf9miSsxc1QjNazHXTDJdVPZKKTw==",
       "type": "package",
       "path": "microsoft.aspnetcore.http.features/2.1.1",
       "files": [
@@ -5926,7 +5926,7 @@
       ]
     },
     "Microsoft.Extensions.Configuration/2.1.1": {
-      "sha512": "1JaydycXzbfAExlsD7XIWykzVnU/wZM86KzrHyGlXuxqnqzcWSXLJn4Ejn8bDnq07CEJNZ+GjsxWKlJ8kFfnvQ==",
+      "sha512": "LjVKO6P2y52c5ZhTLX/w8zc5H4Y3J/LJsgqTBj49TtFq/hAtVNue/WA0F6/7GMY90xhD7K0MDZ4qpOeWXbLvzg==",
       "type": "package",
       "path": "microsoft.extensions.configuration/2.1.1",
       "files": [
@@ -5939,7 +5939,7 @@
       ]
     },
     "Microsoft.Extensions.Configuration.Abstractions/2.1.1": {
-      "sha512": "9EMhOWU2eOQOtMIJ+vfwKJpnLRc1Wl3vXu8qXeevA91cSY4j3WvArmF7ApGtJwa7yKewJTvlQlBSn9OSnLFg6Q==",
+      "sha512": "VfuZJNa0WUshZ/+8BFZAhwFKiKuu/qOUCFntfdLpHj7vcRnsGHqd3G2Hse78DM+pgozczGM63lGPRLmy+uhUOA==",
       "type": "package",
       "path": "microsoft.extensions.configuration.abstractions/2.1.1",
       "files": [
@@ -6088,7 +6088,7 @@
       ]
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.1": {
-      "sha512": "PW1596sF97gpIc1JuUuYvTmeLfeqC5whbWPsWgJhN0fdwz683him3b/HB0dqhFesVssOjnnA0fEz4+S0gUeBqA==",
+      "sha512": "MgYpU5cwZohUMKKg3sbPhvGG+eAZ/59E9UwPwlrUkyXU+PGzqwZg9yyQNjhxuAWmoNoFReoemeCku50prYSGzA==",
       "type": "package",
       "path": "microsoft.extensions.dependencyinjection.abstractions/2.1.1",
       "files": [
@@ -6426,7 +6426,7 @@
       ]
     },
     "Microsoft.Extensions.Primitives/2.1.1": {
-      "sha512": "Svz25/egj1TsNL4118jyMqkhDiu0l8QYWq2p52P4BBN0GbqwR18ZRIctSP5TTDJy0m0EFC8aB2FOVjGtvEGWSA==",
+      "sha512": "scJ1GZNIxMmjpENh0UZ8XCQ6vzr/LzeF9WvEA51Ix2OQGAs9WPgPu8ABVUdvpKPLuor/t05gm6menJK3PwqOXg==",
       "type": "package",
       "path": "microsoft.extensions.primitives/2.1.1",
       "files": [
@@ -7481,7 +7481,7 @@
       ]
     },
     "System.Buffers/4.5.0": {
-      "sha512": "xpHYjjtyTEpzMwtSQBWdVc3dPjLdQtvyUg6fBlBqcLl1r2Y7gDG/W/enAYOB98nG3oD3Q153Y2FBO8JDWd+0Xw==",
+      "sha512": "pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
       "type": "package",
       "path": "system.buffers/4.5.0",
       "files": [
@@ -9028,7 +9028,7 @@
       ]
     },
     "System.Memory/4.5.1": {
-      "sha512": "vcG3/MbfpxznMkkkaAblJi7RHOmuP7kawQMhDgLSuA1tRpRQYsFSCTxRSINDUgn2QNn2jWeLxv8er5BXbyACkw==",
+      "sha512": "sDJYJpGtTgx+23Ayu5euxG5mAXWdkDb4+b0rD0Cab0M1oQS9H0HXGPriKcqpXuiJDTV7fTp/d+fMDJmnr6sNvA==",
       "type": "package",
       "path": "system.memory/4.5.1",
       "files": [
@@ -9898,7 +9898,7 @@
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.1": {
-      "sha512": "x/3d5xb+mc9e4I2GOOT+HPRWMZLbYjNN/kYKsb0fyUKcWizn/t1CIrGRLIBhv7H0ptYEt+WTTztdPmwSUMyKig==",
+      "sha512": "Zh8t8oqolRaFa9vmOZfdQm/qKejdqz0J9kr7o2Fu0vPeoH3BL1EOXipKWwkWtLT1JPzjByrF19fGuFlNbmPpiw==",
       "type": "package",
       "path": "system.runtime.compilerservices.unsafe/4.5.1",
       "files": [
@@ -11829,23 +11829,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Spock\\.nuget\\packages\\": {},
+    "C:\\Users\\marcos.monteiro\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projetos\\GymPass\\Gympass-Kart\\Kart_Racing\\Gympass_Kart\\Gympass_Kart.csproj",
+      "projectUniqueName": "C:\\Projetos\\ModeloPlataformas\\gympass\\Kart_Racing\\Gympass_Kart\\Gympass_Kart.csproj",
       "projectName": "Gympass_Kart",
-      "projectPath": "F:\\Projetos\\GymPass\\Gympass-Kart\\Kart_Racing\\Gympass_Kart\\Gympass_Kart.csproj",
-      "packagesPath": "C:\\Users\\Spock\\.nuget\\packages\\",
-      "outputPath": "F:\\Projetos\\GymPass\\Gympass-Kart\\Kart_Racing\\Gympass_Kart\\obj\\",
+      "projectPath": "C:\\Projetos\\ModeloPlataformas\\gympass\\Kart_Racing\\Gympass_Kart\\Gympass_Kart.csproj",
+      "packagesPath": "C:\\Users\\marcos.monteiro\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\ModeloPlataformas\\gympass\\Kart_Racing\\Gympass_Kart\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Spock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marcos.monteiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11858,11 +11858,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "F:\\Projetos\\GymPass\\Gympass-Kart\\Kart_Racing\\Gympass_Kart.Application\\Gympass_Kart.Application.csproj": {
-              "projectPath": "F:\\Projetos\\GymPass\\Gympass-Kart\\Kart_Racing\\Gympass_Kart.Application\\Gympass_Kart.Application.csproj"
+            "C:\\Projetos\\ModeloPlataformas\\gympass\\Kart_Racing\\Gympass_Kart.Application\\Gympass_Kart.Application.csproj": {
+              "projectPath": "C:\\Projetos\\ModeloPlataformas\\gympass\\Kart_Racing\\Gympass_Kart.Application\\Gympass_Kart.Application.csproj"
             },
-            "F:\\Projetos\\GymPass\\Gympass-Kart\\Kart_Racing\\Gympass_Kart.Dependency.Injection\\Gympass_Kart.Dependency.Injection.csproj": {
-              "projectPath": "F:\\Projetos\\GymPass\\Gympass-Kart\\Kart_Racing\\Gympass_Kart.Dependency.Injection\\Gympass_Kart.Dependency.Injection.csproj"
+            "C:\\Projetos\\ModeloPlataformas\\gympass\\Kart_Racing\\Gympass_Kart.Dependency.Injection\\Gympass_Kart.Dependency.Injection.csproj": {
+              "projectPath": "C:\\Projetos\\ModeloPlataformas\\gympass\\Kart_Racing\\Gympass_Kart.Dependency.Injection\\Gympass_Kart.Dependency.Injection.csproj"
             }
           }
         }

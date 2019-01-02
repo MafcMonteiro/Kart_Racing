@@ -704,23 +704,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Spock\\.nuget\\packages\\": {},
+    "C:\\Users\\marcos.monteiro\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projetos\\GymPass\\Gympass-Kart\\Kart_Racing\\Gympass_Kart.Dependency.Injection\\Gympass_Kart.Dependency.Injection.csproj",
+      "projectUniqueName": "C:\\Projetos\\ModeloPlataformas\\gympass\\Kart_Racing\\Gympass_Kart.Dependency.Injection\\Gympass_Kart.Dependency.Injection.csproj",
       "projectName": "Gympass_Kart.Dependency.Injection",
-      "projectPath": "F:\\Projetos\\GymPass\\Gympass-Kart\\Kart_Racing\\Gympass_Kart.Dependency.Injection\\Gympass_Kart.Dependency.Injection.csproj",
-      "packagesPath": "C:\\Users\\Spock\\.nuget\\packages\\",
-      "outputPath": "F:\\Projetos\\GymPass\\Gympass-Kart\\Kart_Racing\\Gympass_Kart.Dependency.Injection\\obj\\",
+      "projectPath": "C:\\Projetos\\ModeloPlataformas\\gympass\\Kart_Racing\\Gympass_Kart.Dependency.Injection\\Gympass_Kart.Dependency.Injection.csproj",
+      "packagesPath": "C:\\Users\\marcos.monteiro\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\ModeloPlataformas\\gympass\\Kart_Racing\\Gympass_Kart.Dependency.Injection\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Spock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marcos.monteiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -733,8 +733,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "F:\\Projetos\\GymPass\\Gympass-Kart\\Kart_Racing\\Gympass_Kart.Application\\Gympass_Kart.Application.csproj": {
-              "projectPath": "F:\\Projetos\\GymPass\\Gympass-Kart\\Kart_Racing\\Gympass_Kart.Application\\Gympass_Kart.Application.csproj"
+            "C:\\Projetos\\ModeloPlataformas\\gympass\\Kart_Racing\\Gympass_Kart.Application\\Gympass_Kart.Application.csproj": {
+              "projectPath": "C:\\Projetos\\ModeloPlataformas\\gympass\\Kart_Racing\\Gympass_Kart.Application\\Gympass_Kart.Application.csproj"
             }
           }
         }

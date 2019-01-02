@@ -26,6 +26,8 @@ namespace Gympass_Kart.Controllers
         [HttpGet]
         public IActionResult Get()
         {
+
+            var t = "";
             return CreateResponse(() => kartApplicationService.GetkartResult());
         }
 
